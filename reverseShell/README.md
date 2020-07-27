@@ -1,6 +1,6 @@
 # reverseShell
 
-How to use it:\n
+How to use it:<br />
 	Change the "HOST_IP" to yor IP
 	You may change the port if you want to
 	Upload the powershell script to the internet
