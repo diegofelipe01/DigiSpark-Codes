@@ -1,0 +1,1 @@
+Scancode table changed to support ABNT2 keyboards (brazilian keyboards)
