@@ -1,7 +1,3 @@
-//ARQUIVO MODIFICADO PARA OPERAR EM ABNT2
-//ainda possue problemas com ? e Ç
-
-
 #include <avr/pgmspace.h>
 // Lookup table to convert ascii characters in to keyboard scan codes
 // Format: most signifficant bit indicates if scan code should be sent with shift modifier
@@ -71,7 +67,7 @@ const unsigned char ascii_to_scan_code_table[] PROGMEM = {
   /* ASCII:  60 */ 182,
   /* ASCII:  61 */ 46,
   /* ASCII:  62 */ 183,
-  /* ASCII:  63 */ 0, /* onde esta a ? */
+  /* ASCII:  63 */ 0, //eu não sei onde isso tá
   /* ASCII:  64 */ 159,
   /* ASCII:  65 */ 132,
   /* ASCII:  66 */ 133,
